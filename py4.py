@@ -28,6 +28,6 @@ def validate_and_execute():
 
 input_data = " "
 while input_data != "exit":
-    input_data = input("Hey user enter number of days and I will convert it to hours \n")
+    input_data = input("Hey user enter a numbers of days seperated by comas and I will convert it to hours \n")
     for user_data_elememt in input_data.split(","):
         validate_and_execute()
