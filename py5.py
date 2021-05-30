@@ -30,5 +30,12 @@ def validate_and_execute():
 input_data = " "
 while input_data != "exit":
     input_data = input("Hey user enter a numbers of days seperated by comas and I will convert it to hours \n")
-    for user_data_elememt in input_data.split(","):
+    list_of_days = input_data.split(",")
+    print(list_of_days)
+    print(set(list_of_days))
+
+    print(type(list_of_days))
+    print(type(set(list_of_days)))
+
+    for user_data_elememt in set(list_of_days):
         validate_and_execute()
