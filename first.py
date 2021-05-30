@@ -13,7 +13,7 @@ def days_to_units(num_of_days):
 
 def validate_and_execute():
 
-    input_data = input("Hey user enter number of days \n")
+    input_data = input("Hey user enter number of days and I will convert it to hours\n")
     if input_data.isdigit():
         print(type(input_data))
 
