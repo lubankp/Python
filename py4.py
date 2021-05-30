@@ -17,17 +17,17 @@ def validate_and_execute():
             result = days_to_units(num_of_days)
             print(f"{num_of_days} {string_one} {result} {string_two}")
         elif num_of_days == 0:
-            print( "you entered 0")
+            print( "You entered 0")
         else:
-            print("negative number")
+            print("You entered negative number")
         
         
     except ValueError:
-        print("your input is no valid number")
+        print("Your input is no valid number")
 
 
 input_data = " "
 while input_data != "exit":
-    input_data = input("Hey user enter number of days \n")
+    input_data = input("Hey user enter number of days and I will convert it to hours \n")
     for user_data_elememt in input_data.split(","):
         validate_and_execute()
