@@ -11,7 +11,7 @@ def days_to_units(num_of_days):
 
 def validate_and_execute():
 
-    input_data = input("Hey user enter number of days \n")
+    input_data = input("Hey user enter number of days and I will convert it to hours\n")
 
     if input_data.isdigit():
 
@@ -21,11 +21,11 @@ def validate_and_execute():
             result = days_to_units(num_of_days)
             print(f"{num_of_days} {string_one} {result} {string_two}")
         elif num_of_days == 0:
-            print( "you entered 0")
+            print( "You entered 0")
         
         
     else:
-        print("your input is no valid number")
+        print("Your input is no valid number")
 
 
 validate_and_execute()
