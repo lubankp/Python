@@ -9,6 +9,7 @@ first_company = 0
 second_company = 0
 third_company = 0
 
+
 for value in sheet.values():
     for row in value:
 
