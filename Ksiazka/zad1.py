@@ -12,5 +12,6 @@ def times_table1(n):
             print(x*y, end=' ' * (column_width - len(str(x*y))))
         print ('')
 
+
 times_table(5)
 times_table1(5)
