@@ -1,4 +1,4 @@
-
+# get first and last element of list
 def first(list):
     return list[0]
 

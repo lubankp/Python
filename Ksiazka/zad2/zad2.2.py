@@ -1,3 +1,5 @@
+# function to reverse list
+
 def reverse(list1):
     list2 = list.copy()
     for i, el in enumerate(list1):

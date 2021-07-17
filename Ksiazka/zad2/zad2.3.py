@@ -1,3 +1,5 @@
+# get minimal and maximal element of list
+
 from random import randint
 
 def min(list):

@@ -1,3 +1,5 @@
+# avoid duplication in list
+
 def setify(list):
     for i in list:
         dublication = list.count(i)
