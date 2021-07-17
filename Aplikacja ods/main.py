@@ -5,12 +5,22 @@ from tkinter import messagebox
 def about():
     tk.messagebox.showinfo("Powitanie", "Hej!")
 
+def window1():
+
+    window1 = tk.Tk()
+    window1.title("Window1")
+    window1.geometry("400x300")
+
+def window2():
+    window2 = tk.Tk()
+    window2.title("Window1")
+    window2.geometry("400x300")
 
 gui = tk.Tk()
 gui.title("Przykładowa aplikacja")
 gui.geometry("1500x900")
 
-butt_ref_start = tk.Button(gui, command=about, text="rozpoczecie ref", fg="black", font = "Verdana 24", bd = 2, bg = "blue", relief = "groove", width = 14, height = 2)
+butt_ref_start = tk.Button(gui, command=window1, text="rozpoczecie ref", fg="black", font = "Verdana 24", bd = 2, bg = "blue", relief = "groove", width = 14, height = 2)
 butt_ref_start.grid(row=1, column=1)
 butt_ref_end = tk.Button(gui, command=about, text="Zakoncenie ref", fg="black", font = "Verdana 24", bd = 2, bg = "pink", relief = "groove", width = 14, height = 2)
 butt_ref_end.grid(row=1, column=4)
