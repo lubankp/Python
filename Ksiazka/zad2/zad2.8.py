@@ -4,7 +4,7 @@ from random import randint
 
 
 def guess_code(correct):
-    cor = 0
+    corr = 0
     for x, el2 in enumerate(guess_number):
         find = 0
 
@@ -14,7 +14,7 @@ def guess_code(correct):
                 if i == x:
                     print(f"{el2} is in correct place")
                     find += 1
-                    cor +=1
+                    corr +=1
                     break
                 else:
                     #print(f"g_num {guess_number.count(el2)} r_num {random_code.count(el)}")
@@ -28,7 +28,7 @@ def guess_code(correct):
         if find == 0:
             print(f"{el2} is in not in code")
 
-    return cor
+    return corr
 
 
 random_code = [randint(0, 9), randint(0, 9), randint(0, 9), randint(0, 9)]
