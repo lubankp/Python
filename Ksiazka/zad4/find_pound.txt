@@ -1,0 +1,7 @@
+pound not find in sentence 3
+pound find at position 6 in sentence 1
+pound find at position 4 in sentence 2
+pound not find in sentence 3
+pound find at position 6 in sentence 1
+pound find at position 4 in sentence 2
+pound not find in sentence 3
