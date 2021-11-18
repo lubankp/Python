@@ -1,3 +1,4 @@
+# SET comprehension, & function in SETs
 def and1(set1,set2):
     set3 = ([x for x in set1 for y in set2 if x == y])
     return set3
