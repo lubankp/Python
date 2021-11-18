@@ -9,6 +9,6 @@ def remove_zeros(l):
             x += 1
 
 
-l = [1,0,1,0,0,1,0,1]
+l = [1,0,1,0,0,1,0,1,0,1]
 remove_zeros(l)
 print(l)
