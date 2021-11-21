@@ -43,6 +43,8 @@ for _ in range(15):
     t.penup()
     t.goto(x,y)
     t.pendown()
+    t.begin_fill()
     serce(50, 100)
+    t.end_fill()
 
 t.showturtle()

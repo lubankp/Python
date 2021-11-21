@@ -32,6 +32,8 @@ for _ in range(20):
     t.penup()
     t.goto(x,y)
     t.pendown()
+    t.begin_fill()
     circle(50, 100)
+    t.end_fill()
 
 t.showturtle()
