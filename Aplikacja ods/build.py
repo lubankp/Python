@@ -12,5 +12,5 @@ if sys.platform == "win32":
 
 setup( 
     options = {"build_exe": build_exe_options},
-    executables = [Executable("main.py", base=base, icon="icon.ico")]
+    executables = [Executable("question1.py", base=base, icon="icon.ico")]
 )
