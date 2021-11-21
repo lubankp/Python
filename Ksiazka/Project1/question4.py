@@ -5,9 +5,8 @@ t = turtle.Turtle()
 
 def star(x, y, l, n):
     t.penup()
-    t.fd(x)
-    t.lt(90)
-    t.fd(y)
+    t.goto(x,y)
+    t.setheading(random.randint(0,359))
     t.pendown()
     for _ in range(n):
         t.fd(l)
