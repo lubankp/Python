@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\kinect project",
+    "\\kinect project\\python",
+    "\\kinect project\\python\\out",
+    "\\kinect project\\python\\out\\build"
   ],
+  "SelectedNode": "\\kinect project\\python\\out",
   "PreviewInSolutionExplorer": false
 }
